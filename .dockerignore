@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.git/
+MULTI_AI_AGENT.egg-info/
+dist/
+build/
+*.egg-info
+/.pytest_cache
