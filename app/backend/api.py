@@ -14,7 +14,7 @@ app = FastAPI(title="MULTI AI AGENT", version="1.0.0")
 
 class RequestState(BaseModel):
     model_name: str = 'openai/gpt-oss-120b'
-    system_prompt: str = None
+    system_prompt: Optional[str]
     messeges:List[str]
     allow_search: Optional[bool] = False
     
